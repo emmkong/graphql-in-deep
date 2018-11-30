@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "description": "GraphQL In Deep brown bag presentation deck",
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-slick": "^0.23.2",
-    "reflexbox": "^3.0.1",
-    "spectacle-scripts": "2.0.1",
     "apollo-boost": "^0.1.22",
+    "gh-pages": "^2.0.1",
     "graphql": "^14.0.2",
+    "react": "^16.6.3",
     "react-apollo": "^2.3.2",
+    "react-dom": "^16.6.3",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
-    "recompose": "^0.30.0"
+    "react-slick": "^0.23.2",
+    "recompose": "^0.30.0",
+    "reflexbox": "^3.0.1",
+    "spectacle-scripts": "2.0.1"
   },
   "scripts": {
     "start": "PORT=3001 react-scripts start",
