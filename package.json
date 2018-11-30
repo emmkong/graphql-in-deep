@@ -1,0 +1,48 @@
+{
+  "name": "graphql-in-deep",
+  "version": "1.0.0",
+  "description": "GraphQL In Deep brown bag presentation deck",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-slick": "^0.23.2",
+    "reflexbox": "^3.0.1",
+    "spectacle-scripts": "2.0.1",
+    "apollo-boost": "^0.1.22",
+    "graphql": "^14.0.2",
+    "react-apollo": "^2.3.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "recompose": "^0.30.0"
+  },
+  "scripts": {
+    "start": "PORT=3001 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run-script build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmkong/graphql-in-deep.git"
+  },
+  "keywords": [
+    "spectacle",
+    "graphql",
+    "orchestarted"
+  ],
+  "author": "Emmanuel Kong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emmkong/graphql-in-deep/issues"
+  },
+  "homepage": "https://github.com/emmkong/graphql-in-deep#readme",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

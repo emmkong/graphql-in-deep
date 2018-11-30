@@ -1,0 +1,17 @@
+fragment BookParts on Book {
+  id
+  title
+  author
+}
+
+query GET_BOOKS {
+  books {
+    ...BookParts
+  }
+}
+
+query GET_BOOK_BY_ID($id: ID!) {
+  book(id: $id) {
+    ...BookParts
+  }
+}
